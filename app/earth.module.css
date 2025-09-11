@@ -1,0 +1,18 @@
+.earth {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: url("https://raw.githubusercontent.com/ChimeraCoder/earth-api/master/earthmap.jpg");
+  background-size: cover;
+  animation: spin 30s linear infinite;
+  box-shadow: inset -30px 0px 60px rgba(0,0,0,0.6);
+}
+
+@keyframes spin {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -2000px 0;
+  }
+}
