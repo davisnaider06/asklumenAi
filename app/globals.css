@@ -19,7 +19,7 @@
   --muted-foreground: oklch(0.45 0.05 240); /* Muted blue text */
   --accent: oklch(0.55 0.15 240); /* Sky blue accent */
   --accent-foreground: oklch(1 0 0); /* White text on accent */
-  --destructive: oklch(0.577 0.245 27.325);
+  --destructive: oklch(74.927% 0.00226 15.135);
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.92 0.01 240); /* Light blue border */
   --input: oklch(0.98 0.01 240); /* Light blue input background */
@@ -28,7 +28,7 @@
   --chart-2: oklch(0.55 0.15 240); /* Sky blue for charts */
   --chart-3: oklch(0.65 0.18 45); /* Orange accent for charts */
   --chart-4: oklch(0.35 0.05 240); /* Darker blue for charts */
-  --chart-5: oklch(0.577 0.245 27.325); /* Red for alerts */
+  --chart-5: oklch(97.168% 0.00211 14.313); /* Red for alerts */
   --radius: 0.5rem;
   --sidebar: oklch(0.98 0.01 240);
   --sidebar-foreground: oklch(0.145 0 0);
@@ -58,7 +58,7 @@
   --muted-foreground: oklch(0.7 0.05 240); /* Muted light text */
   --accent: oklch(0.55 0.15 240); /* Sky blue accent */
   --accent-foreground: oklch(0.08 0.02 240); /* Dark text on accent */
-  --destructive: oklch(0.577 0.245 27.325);
+  --destructive: oklch(98.587% 0.00104 11.228);
   --destructive-foreground: oklch(0.98 0.01 240);
   --border: oklch(0.2 0.03 240); /* Dark blue border */
   --input: oklch(0.15 0.03 240); /* Dark input background */
@@ -67,7 +67,7 @@
   --chart-2: oklch(0.75 0.12 240); /* Lighter blue for charts */
   --chart-3: oklch(0.65 0.18 45); /* Orange accent for charts */
   --chart-4: oklch(0.35 0.08 240); /* Medium blue for charts */
-  --chart-5: oklch(0.577 0.245 27.325); /* Red for alerts */
+  --chart-5: oklch(97.051% 0.00447 358.582); /* Red for alerts */
   --sidebar: oklch(0.12 0.03 240);
   --sidebar-foreground: oklch(0.98 0.01 240);
   --sidebar-primary: oklch(0.55 0.15 240);

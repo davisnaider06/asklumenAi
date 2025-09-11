@@ -418,7 +418,7 @@ export default function HomePage() {
               <CardContent>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <Badge className="bg-primary">Q3 2024</Badge>
+                    <Badge className="bg-primary">Q0</Badge>
                     <div>
                       <p className="font-medium">MVP Launch with core AI features</p>
                     </div>
@@ -430,15 +430,21 @@ export default function HomePage() {
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <Badge variant="outline">Q3 2025</Badge>
+                    <Badge variant="outline">Q2 2026</Badge>
                     <div>
                       <p className="font-medium">3 enterprise partnerships signed</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <Badge variant="outline">Q4 2025</Badge>
+                    <Badge variant="outline">Q3 2026</Badge>
                     <div>
                       <p className="font-medium">Series A (£20M+ valuation)</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <Badge variant="outline">Q4 2028</Badge>
+                    <div>
+                      <p className="font-medium">Global expansion with the launch of the OS</p>
                     </div>
                   </div>
                 </div>
