@@ -113,6 +113,34 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* The Big Problem & Vision */}
+      <section className="py-20 relative z-10 bg-background/80 backdrop-blur-sm">
+        <div className="container mx-auto px-4">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="font-mono text-3xl md:text-4xl font-bold text-foreground mb-6">
+                The Problem: Outdated Systems in an AI World
+              </h2>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                AI is reshaping the world, yet current systems are outdated, fragmented, and not built for the future.
+                Students, professionals, and creators struggle with inefficient tools, static learning, and siloed
+                platforms. Traditional operating systems were never designed for AI, AR/VR immersion, adaptive
+                intelligence, or global collaboration — leaving a massive gap in productivity, skill-building, and
+                innovation.
+              </p>
+            </div>
+            <div className="bg-primary/5 border border-primary/20 rounded-lg p-8">
+              <h2 className="font-mono text-3xl md:text-4xl font-bold text-primary mb-6">The Solution: An AI-Native OS</h2>
+              <p className="text-lg text-primary/90 leading-relaxed">
+                We’re creating the world’s first AI-native OS that unifies education, work, and innovation into one
+                seamless ecosystem. This isn’t just another product; it’s a new infrastructure layer for the digital
+                world that redefines how billions of people will live, learn, and create in the AI-first era.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Problem Statement */}
       <section className="py-20 relative z-10">
         <div className="container mx-auto px-4">
