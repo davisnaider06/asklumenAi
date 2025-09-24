@@ -53,9 +53,12 @@ export default function HomePage() {
       <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <Brain className="w-5 h-5 text-primary-foreground" />
-            </div>
+            <Image
+              src="/logo.jpg"
+              alt="AskLumen.ai Logo"
+              width={32}
+              height={32}
+            />
             <span className="font-mono text-xl font-bold text-foreground">AskLumen.ai</span>
           </div>
           <div className="hidden md:flex items-center space-x-8">
@@ -86,10 +89,11 @@ export default function HomePage() {
             Seed Round Open - $1M Target
           </Badge>
           <h1 className="font-mono text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 text-balance">
-            Join Us in Building the <span className="text-accent">Future of Learning</span>
+            Redefining Productivity with the World's First{" "}
+            <span className="text-accent">AI-Native Operating System</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-4xl mx-auto text-pretty">
-            "AskLumen.ai isn't just a product — it's the foundation for how humans learn and work in the AI age"
+            We are building a unified platform that combines adaptive learning, immersive 3D/AR experiences, and powerful automation tools to empower students, professionals, and enterprises worldwide.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button
@@ -119,22 +123,22 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="font-mono text-3xl md:text-4xl font-bold text-foreground mb-6">
-                The Problem: Outdated Systems in an AI World
+                The Problem: Outdated Systems Limit AI Potential
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                AI is reshaping the world, yet current systems are outdated, fragmented, and not built for the future.
-                Students, professionals, and creators struggle with inefficient tools, static learning, and siloed
-                platforms. Traditional operating systems were never designed for AI, AR/VR immersion, adaptive
-                intelligence, or global collaboration — leaving a massive gap in productivity, skill-building, and
-                innovation.
+                Current operating systems were never designed for artificial intelligence at their core. This creates
+                inefficiencies, limited integration, and poor user experience when running advanced AI tools. A new
+                paradigm is needed—an AI-native OS that puts intelligence, automation, and adaptability at the center
+                of human-computer interaction.
               </p>
             </div>
             <div className="bg-primary/5 border border-primary/20 rounded-lg p-8">
               <h2 className="font-mono text-3xl md:text-4xl font-bold text-primary mb-6">The Solution: An AI-Native OS</h2>
               <p className="text-lg text-primary/90 leading-relaxed">
-                We’re creating the world’s first AI-native OS that unifies education, work, and innovation into one
-                seamless ecosystem. This isn’t just another product; it’s a new infrastructure layer for the digital
-                world that redefines how billions of people will live, learn, and create in the AI-first era.
+                Our long-term vision is to create the world’s first Artificial Intelligence Operating System (AIOS),
+                designed with intelligence at its core. Unlike traditional OS platforms, AIOS is built for seamless
+                integration of AI agents, automation, and adaptive user experiences—unlocking the true potential of
+                artificial intelligence for everyday use.
               </p>
             </div>
           </div>
@@ -146,7 +150,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="font-mono text-3xl md:text-4xl font-bold text-card-foreground mb-6">
-              The Learning & Productivity Crisis
+              Fragmented Productivity & Learning
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Current educational and productivity ecosystems face critical shortcomings
@@ -158,13 +162,13 @@ export default function HomePage() {
               <CardHeader>
                 <CardTitle className="text-destructive flex items-center gap-2">
                   <Target className="w-6 h-6" />
-                  Fragmented Tools
+                  Fragmented Ecosystem
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold text-destructive mb-2">2.5 billion</p>
                 <p className="text-muted-foreground">
-                  students and professionals struggle with numerical learning tools that exist in isolation
+                  People juggle multiple apps for learning, note-taking, collaboration, and AI tools—wasting time and
+                  breaking focus.
                 </p>
               </CardContent>
             </Card>
@@ -173,13 +177,12 @@ export default function HomePage() {
               <CardHeader>
                 <CardTitle className="text-destructive flex items-center gap-2">
                   <TrendingUp className="w-6 h-6" />
-                  Wasted Investment
+                  Complex Learning
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold text-destructive mb-2">$494 billion</p>
                 <p className="text-muted-foreground">
-                  wasted annually on ineffective training programmes that fail to deliver measurable results
+                  Students and professionals struggle to grasp complex topics because traditional platforms rely on static text or video.
                 </p>
               </CardContent>
             </Card>
@@ -192,10 +195,9 @@ export default function HomePage() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold text-destructive mb-2">87%</p>
                 <p className="text-muted-foreground">
-                  of learners report difficulty retaining information from traditional methods, creating significant
-                  knowledge gaps
+                  Without adaptive, interactive tools, learning remains inefficient and overwhelming, leaving users
+                  frustrated and disengaged.
                 </p>
               </CardContent>
             </Card>
@@ -207,8 +209,8 @@ export default function HomePage() {
       <section id="about" className="py-20 relative z-10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="font-mono text-3xl md:text-4xl font-bold text-foreground mb-6">Experience AskLumen.ai</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Your Adaptive AI Learning Companion</p>
+            <h2 className="font-mono text-3xl md:text-4xl font-bold text-foreground mb-6">Our Innovative Solutions</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">Discover Our Services</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
@@ -217,12 +219,11 @@ export default function HomePage() {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Brain className="w-8 h-8 text-primary" />
                 </div>
-                <CardTitle>AI Mentor Interaction</CardTitle>
+                <CardTitle>Adaptive AI Learning</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Personalized real-time mentoring via chat, audio, video, and visual generation that evolves with your
-                  learning journey
+                  Our platform tailors content to each user’s pace and style, using intelligent algorithms to adjust difficulty and delivery.
                 </p>
               </CardContent>
             </Card>
@@ -232,11 +233,11 @@ export default function HomePage() {
                 <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Star className="w-8 h-8 text-accent" />
                 </div>
-                <CardTitle>Gamified Learning Journey</CardTitle>
+                <CardTitle>Unified AI Ecosystem</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Badges, leaderboards, and challenges that boost retention by 75% and maintain continuous engagement
+                  We bring together AI tools for learning, productivity, collaboration, and automation in one seamless hub.
                 </p>
               </CardContent>
             </Card>
@@ -246,18 +247,18 @@ export default function HomePage() {
                 <div className="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Globe className="w-8 h-8 text-secondary" />
                 </div>
-                <CardTitle>AR Learning Environment</CardTitle>
+                <CardTitle>Immersive AR/VR Simulations</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Interactive 3D learning environments that transform abstract concepts into tangible experiences
+                  AskLumen.ai transforms abstract concepts into interactive 3D experiences, making education more engaging and effective.
                 </p>
               </CardContent>
             </Card>
           </div>
 
           <div className="text-center">
-            <Card className="inline-block bg-primary/5 border-primary/20">
+            <Card className="inline-block bg-primary/5 border-primary/20 max-w-4xl">
               <CardContent className="p-8">
                 <p className="text-2xl font-bold text-primary mb-2">
                   "Students achieve 3x faster skill acquisition with 85% retention rate"
@@ -321,31 +322,31 @@ export default function HomePage() {
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <Card className="text-center">
               <CardHeader>
-                <CardTitle className="text-4xl font-bold text-primary mb-2">$528B</CardTitle>
+                <CardTitle className="text-4xl font-bold text-primary mb-2">$1T+</CardTitle>
                 <CardDescription className="text-lg">Total Addressable Market</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">AI software market growing to £1.8 trillion by 2030</p>
+                <p className="text-muted-foreground">Global AI market projected to reach multiple trillions by the 2030s.</p>
               </CardContent>
             </Card>
 
             <Card className="text-center">
               <CardHeader>
-                <CardTitle className="text-4xl font-bold text-accent mb-2">$178B</CardTitle>
+                <CardTitle className="text-4xl font-bold text-accent mb-2">$500-750B</CardTitle>
                 <CardDescription className="text-lg">Serviceable Available Market</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">Combined EdTech ($87B) and productivity software ($45B) markets</p>
+                <p className="text-muted-foreground">Intersection of AI, EdTech, and productivity software markets.</p>
               </CardContent>
             </Card>
 
             <Card className="text-center">
               <CardHeader>
-                <CardTitle className="text-4xl font-bold text-secondary mb-2">$3.1B</CardTitle>
+                <CardTitle className="text-4xl font-bold text-secondary mb-2">$75-100M</CardTitle>
                 <CardDescription className="text-lg">Serviceable Obtainable Market</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">Our realistic capture potential in the next 5 years</p>
+                <p className="text-muted-foreground">Our realistic capture potential within the first 3-5 years.</p>
               </CardContent>
             </Card>
           </div>
@@ -356,48 +357,39 @@ export default function HomePage() {
       <section className="py-20 relative z-10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="font-mono text-3xl md:text-4xl font-bold text-card-foreground mb-6">
-              Path to $100M+ Revenue
-            </h2>
+            <h2 className="font-mono text-3xl md:text-4xl font-bold text-card-foreground mb-6">Revenue Model</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-2xl font-bold text-card-foreground mb-6">Key Metrics</h3>
+              <h3 className="text-2xl font-bold text-card-foreground mb-6">Pricing Tiers</h3>
               <div className="space-y-4">
                 <div className="flex justify-between items-center p-4 bg-background rounded-lg">
-                  <span className="font-medium">ARPU</span>
-                  <span className="font-bold text-primary">$27.50</span>
+                  <span className="font-medium">Free</span>
+                  <span className="font-bold text-primary">$0 / month</span>
                 </div>
                 <div className="flex justify-between items-center p-4 bg-background rounded-lg">
-                  <span className="font-medium">Monthly Churn</span>
-                  <span className="font-bold text-accent">6%</span>
+                  <span className="font-medium">Pro</span>
+                  <span className="font-bold text-accent">$49 / month</span>
                 </div>
                 <div className="flex justify-between items-center p-4 bg-background rounded-lg">
-                  <span className="font-medium">LTV/CAC</span>
-                  <span className="font-bold text-secondary">4.2x</span>
+                  <span className="font-medium">Lumen</span>
+                  <span className="font-bold text-secondary">$199 / month</span>
                 </div>
                 <div className="flex justify-between items-center p-4 bg-background rounded-lg">
-                  <span className="font-medium">Gross Margin</span>
-                  <span className="font-bold text-primary">87%</span>
-                </div>
-                <div className="flex justify-between items-center p-4 bg-background rounded-lg">
-                  <span className="font-medium">Break-even</span>
-                  <span className="font-bold text-accent">Month 18</span>
-                </div>
-                <div className="flex justify-between items-center p-4 bg-background rounded-lg">
-                  <span className="font-medium">Profitability</span>
-                  <span className="font-bold text-secondary">Year 2</span>
+                  <span className="font-medium">Elite</span>
+                  <span className="font-bold text-primary">Fully Tailored</span>
                 </div>
               </div>
             </div>
 
             <div>
+              <h3 className="text-2xl font-bold text-card-foreground mb-6">Early Traction & Projections</h3>
               <p className="text-muted-foreground mb-8">
-                Our financial model shows strong unit economics with premium users converting at 7.5% from freemium.
-                Revenue diversity increases stability, with enterprise contracts accounting for 45% of revenue by Year
-                3. AI OS licensing represents our highest-margin revenue stream with projected 92% gross margins at
-                scale.
+                Ask Lumen AI has already validated global demand, with 200+ survey responses and 94% positive feedback.
+                We are targeting 1M+ users within the first 18 months, break-even by Month 9, and revenue projections
+                of $5.3M in Year 1. This early traction highlights strong market appetite, fast scalability, and a
+                clear path to sustainable growth.
               </p>
             </div>
           </div>
@@ -423,17 +415,22 @@ export default function HomePage() {
                   <div className="flex items-center gap-4">
                     <div className="w-4 h-4 bg-primary rounded-full"></div>
                     <span className="font-medium">Product Development</span>
-                    <span className="ml-auto text-muted-foreground">60%</span>
+                    <span className="ml-auto text-muted-foreground">40%</span>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-4 h-4 bg-destructive rounded-full"></div>
-                    <span className="font-medium">Team Expansion</span>
-                    <span className="ml-auto text-muted-foreground">25%</span>
+                    <span className="font-medium">Marketing and Sales</span>
+                    <span className="ml-auto text-muted-foreground">30%</span>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-4 h-4 bg-accent rounded-full"></div>
-                    <span className="font-medium">Marketing</span>
-                    <span className="ml-auto text-muted-foreground">15%</span>
+                    <span className="font-medium">Infrastructure and Operations</span>
+                    <span className="ml-auto text-muted-foreground">10%</span>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <div className="w-4 h-4 bg-secondary rounded-full"></div>
+                    <span className="font-medium">Expansion and Growth Initiatives</span>
+                    <span className="ml-auto text-muted-foreground">20%</span>
                   </div>
                 </div>
               </CardContent>
@@ -446,31 +443,25 @@ export default function HomePage() {
               <CardContent>
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <Badge className="bg-primary">Q0</Badge>
+                    <Badge className="bg-primary">Q4 2025</Badge>
                     <div>
-                      <p className="font-medium">MVP Launch with core AI features</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-4">
-                    <Badge variant="outline">Q1 2025</Badge>
-                    <div>
-                      <p className="font-medium">50K active users, 5K paying</p>
+                      <p className="font-medium">Launch beta application with limited features.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
                     <Badge variant="outline">Q2 2026</Badge>
                     <div>
-                      <p className="font-medium">3 enterprise partnerships signed</p>
+                      <p className="font-medium">Full launch, begin R&D on AIOS.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <Badge variant="outline">Q3 2026</Badge>
+                    <Badge variant="outline">Q4 2026</Badge>
                     <div>
-                      <p className="font-medium">Series A (£20M+ valuation)</p>
+                      <p className="font-medium">Fully trained AI, AIOS MVP ready.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <Badge variant="outline">Q4 2028</Badge>
+                    <Badge variant="outline">Q2 2027</Badge>
                     <div>
                       <p className="font-medium">Global expansion with the launch of the OS</p>
                     </div>
@@ -486,12 +477,10 @@ export default function HomePage() {
       <section id="team" className="py-20 relative z-10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="font-mono text-3xl md:text-4xl font-bold text-card-foreground mb-6">
-              Founders Built for This Mission
-            </h2>
+            <h2 className="font-mono text-3xl md:text-4xl font-bold text-card-foreground mb-6">Meet the Team</h2>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
             <Card>
               <CardContent className="p-8 text-center">
                 <div className="w-32 h-32 rounded-full mx-auto mb-6 overflow-hidden">
@@ -531,11 +520,38 @@ export default function HomePage() {
                 </p>
               </CardContent>
             </Card>
-          </div>
 
-          <div className="text-center mt-12">
-            <h4 className="text-xl font-bold text-card-foreground mb-2">Key Advisor:</h4>
-            <p className="text-muted-foreground">Sarthak Pandey</p>
+            <Card>
+              <CardContent className="p-8 text-center">
+                <div className="w-32 h-32 rounded-full mx-auto mb-6 overflow-hidden bg-muted flex items-center justify-center">
+                  <Image
+                    src="/israel-founder.jpg"
+                    alt="Israel - Developer Manager"
+                    width={128}
+                    height={128}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-2xl font-bold text-card-foreground mb-2">Israel</h3>
+                <p className="text-primary font-medium mb-4">Development Manager</p>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardContent className="p-8 text-center">
+                <div className="w-32 h-32 rounded-full mx-auto mb-6 overflow-hidden bg-muted flex items-center justify-center">
+                  <Image
+                    src="/shashank-founder.png"
+                    alt="Shashank - Marketing Manager"
+                    width={128}
+                    height={128}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-2xl font-bold text-card-foreground mb-2">Shashank</h3>
+                <p className="text-accent font-medium mb-4">Marketing Manager</p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -601,9 +617,12 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <Brain className="w-5 h-5 text-primary-foreground" />
-              </div>
+              <Image
+                src="/logo.png"
+                alt="AskLumen.ai Logo"
+                width={32}
+                height={32}
+              />
               <span className="font-mono text-xl font-bold text-card-foreground">AskLumen.ai</span>
             </div>
             <p className="text-muted-foreground text-center md:text-right">
